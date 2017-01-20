@@ -1,0 +1,17 @@
+{
+  "name": "watchpack-pr-41-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kees Kluskens <kees@webduck.nl>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}
