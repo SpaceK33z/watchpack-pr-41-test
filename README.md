@@ -15,7 +15,7 @@ Module not found: Error: Can't resolve 'asdfasdf' in '/Users/kees/dev/watchpack-
 webpack: bundle is now VALID.
 ```
 
-**But note that the process keeps running (which it should).**
+**But note that the process keeps running (which is correct).**
 
 Now, in a separate folder, do this:
 
@@ -26,7 +26,7 @@ npm i
 npm link
 ```
 
-Go back to this folder and do:
+Go back to this test repository and do:
 
 ```
 npm link watchpack
